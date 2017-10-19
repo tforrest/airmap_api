@@ -31,6 +31,7 @@ class AirMapAPI:
 if __name__ == '__main__':
 	token = input("Enter your API Token for airmap: ")
 	airmap_api = AirMapAPI(token)
+	# geo map coordinates for ASU Tempe Campus
 	geo_json = {
 		"type": "FeatureCollection",
 		"features": [
