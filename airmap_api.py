@@ -29,7 +29,7 @@ class AirMapAPI:
 
 
 if __name__ == '__main__':
-	token = input("Enter your API Token for airmap api: ")
+	token = input("Enter your API Token for airmap: ")
 	airmap_api = AirMapAPI(token)
 	geo_json = {
 		"type": "FeatureCollection",
