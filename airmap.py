@@ -25,3 +25,5 @@ class AirMapAPI:
 		)
 
 		return r.json()
+
+		
